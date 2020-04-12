@@ -38,7 +38,7 @@ echo Java Home path: $JAVA_HOME
 #Maven Setup:
 echo Maven Setup:
 
-export MAVEN_VERSION=3.6.0
+export MAVEN_VERSION=3.6.3
 #Download maven:
 echo Download maven:
  wget http://mirror.cogentco.com/pub/apache/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz
