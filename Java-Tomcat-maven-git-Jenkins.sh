@@ -118,8 +118,8 @@ echo Deploy war to tomcat
 mv jenkins.war tomcat7/webapps/
 
 #Restart the server if required.
-#/root/tomcat7/bin/shutdown.sh
-#/root/tomcat7/bin/startup.sh
+#Shutdown the server: ./tomcat7/bin/shutdown.sh
+#Startup the server: ./tomcat7/bin/startup.sh
 
 #launch the tomcat URL and start jenkins.
 #Access the URL: http://publicIP:8080/ in browser
