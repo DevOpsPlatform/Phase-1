@@ -172,15 +172,3 @@ mvn -v
 
 #===========================GIT INSTALLATION END========================================================
 
-#Note:
-#Note-1: Marked with the workds "Crosscheck" & "Update" for manual actions. Search for those workds in this file and take an action accordingly.
-#Note-2:Please "Crosscheck" whether those details are correct are not. Update the paths if they are different.
-
-#Installation Procedure:
-#Step-1: Copy the lines from 1 to 170, and then paste it on the terminal when you connected to EC2 instance. All the commands will be executed one by one.
-#Step-2: Run the below commands make sure java, git, maven installed properly.
-#java -version, mvn -v, git --version
-#Step-3: Run this command, jenkins.war should be there: ll tomcat7/webapps/
-#Step-4: Manual updates from line number 90 to 101. (if you have any doubts, go to the section "Tomcat Start-up" in the end of the pages in AWS-TOMCAT-JENKINS.doc)
-#Step-5: Manual updates from line number 119 to 148 (if you have any doubts, go to the section "Jenkins Start-up" in the middle of the pages in AWS-TOMCAT-JENKINS.doc).
-#Step-6: Go thru the manual steps from line number 175 to 207. 
