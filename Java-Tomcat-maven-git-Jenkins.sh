@@ -12,20 +12,18 @@ echo install wget downloaded.
 
 #JAVA Setup
 echo JAVA Setup
-#download JDK rpm
-echo download JDK rpm
-wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.rpm
-#Install RPM
-echo Install RPM
-rpm -i jdk-8u201-linux-x64.rpm
 
-#Setup Maven
-export JAVA_HOME=/usr/java/jdk1.8.0_201-amd64
+sudo yum install java-1.8.0-openjdk-devel
 
+find / -name "tools*" # find the JDK path where the <JDKpath>/libs/tools.jar is available, copy the <JDKpath>
+
+echo' Maual step
+export JAVA_HOME=<JDKpath>
+
+# ex: export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el8_1.x86_64
+'
 export PATH=$JAVA_HOME/bin:$PATH
 
-#Check java
-echo Check the java version
 java -version
 
 #Java Home path: /usr/java/jdk1.8.0_131
