@@ -111,7 +111,7 @@ echo Jenkins Setup:
 
 #Download Jenkins
 echo Download Jenkins
-wget http://updates.jenkins-ci.org/download/war/2.168/jenkins.war
+wget http://updates.jenkins-ci.org/download/war/2.230/jenkins.war
 
 #Deploy war to tomcat
 echo Deploy war to tomcat
