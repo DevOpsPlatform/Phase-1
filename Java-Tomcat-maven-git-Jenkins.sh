@@ -74,7 +74,8 @@ echo'
 
 #Tomcat Setup:
 echo Tomcat Setup:
-export TOMCAT_VERSION=7.0.93
+export TOMCAT_VERSION=7.0.103 # Everytime you setup this tomcat, verify this URL to get the latest version - http://ftp.cixug.es/apache/tomcat/tomcat-7/
+
 #Download Tomcat
 echo Download Tomcat
 wget http://ftp.cixug.es/apache/tomcat/tomcat-7/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz
