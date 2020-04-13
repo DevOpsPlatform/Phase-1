@@ -7,13 +7,36 @@ sudo -i
 #install wget downloaded.
 echo install wget downloaded.
  yum install wget -y
+ 
+
+#===========================GIT INSTALLATION START===========================================
+
+#Git Setup:
+echo Git Setup:
+#Git Installation
+echo Git Installation
+ yum install git -y
+
+#GitHome: /usr/bin/git  ( find  /  -name "git" -- to search with command)
+echo GitHome: /usr/bin/git  ( find  /  -name "git" -- to search with command)
+
+#Git Version
+echo Git Version
+git --version
+
+java -version
+
+mvn -v
+
+#===========================GIT INSTALLATION END========================================================
+
 
 #===========================JAVA INSTALLATION START==========================================
 
 #JAVA Setup
 echo JAVA Setup
 
-sudo yum install java-1.8.0-openjdk-devel
+sudo yum install java-1.8.0-openjdk-devel # you can choose any methond to install JAVA but make sure you setup the JDK path, other wise builds will be failed with compilation errors.
 
 find / -name "tools*" # find the JDK path where the <JDKpath>/libs/tools.jar is available, copy the <JDKpath>
 
@@ -150,25 +173,3 @@ mv jenkins.war tomcat7/webapps/
 
 
 #===========================JENKINS SETUP END=================================================
-
-#===========================GIT INSTALLATION START===========================================
-
-#Git Setup:
-echo Git Setup:
-#Git Installation
-echo Git Installation
- yum install git -y
-
-#GitHome: /usr/bin/git  ( find  /  -name "git" -- to search with command)
-echo GitHome: /usr/bin/git  ( find  /  -name "git" -- to search with command)
-
-#Git Version
-echo Git Version
-git --version
-
-java -version
-
-mvn -v
-
-#===========================GIT INSTALLATION END========================================================
-
