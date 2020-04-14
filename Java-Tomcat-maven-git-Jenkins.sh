@@ -24,9 +24,6 @@ echo GitHome: /usr/bin/git  ( find  /  -name "git" -- to search with command)
 echo Git Version
 git --version
 
-java -version
-
-mvn -v
 
 #===========================GIT INSTALLATION END========================================================
 
