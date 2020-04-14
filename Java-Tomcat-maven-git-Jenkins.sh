@@ -33,7 +33,7 @@ git --version
 #JAVA Setup
 echo JAVA Setup
 
-sudo yum install java-1.8.0-openjdk-devel # you can choose any methond to install JAVA but make sure you setup the JDK path, other wise builds will be failed with compilation errors.
+sudo yum install -y java-1.8.0-openjdk-devel # you can choose any methond to install JAVA but make sure you setup the JDK path, other wise builds will be failed with compilation errors.
 
 find / -name "tools*" # find the JDK path where the <JDKpath>/libs/tools.jar is available, copy the <JDKpath>
 
