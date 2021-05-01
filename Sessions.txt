@@ -1,0 +1,54 @@
+DevOps Sessions
+
+Session-1: CI/CD with Jenkins (IaaC) - without containerization
+
+Ansible or Terraform
+
+Required Tools: RHEL(OS), AWS(EC2), Jenkins, GitHub, Maven, Nexus, Tomcat
+
+1 t2.micro - Jenkins (1CPU, 1GB RAM)
+			RHEL ami
+			java 8
+			Jenkins latest version
+			
+			https://medium.com/deploy-a-simple-jenkins-on-aws-amazon/deploy-a-simple-jenkins-on-aws-a60d93f8b83b
+			
+			https://github.com/moballiachi/cicd-jenkins
+			
+			https://objectpartners.com/2016/06/01/automating-terraform-projects-with-jenkins/
+			
+			
+			https://medium.com/appgambit/terraform-with-jenkins-pipeline-439babe4095c
+			
+			
+1 t2.micro - Jenkins Node (1CPU, 1GB RAM)
+			RHEL ami
+			java8
+			git
+			maven 3.8.1
+1 t2.micro - Nexus (1CPU, 1GB RAM)
+			java8
+			nexus
+1 t2.micro - Tomcat (1CPU, 1GB RAM)
+			- java8
+			- tomcat 9
+
+Session-2: CI/CD with Jenkins (containers) - with containerization
+
+https://blog.sonatype.com/how-to-deploy-a-jenkins-cluster-on-aws-as-part-of-a-fully-automate-ci/cd-platform
+
+Tools: Jenkins, GitHub, Maven, Nexus, Tomcat, AWS, Docker
+
+t2.medium (2 CPU, 4GB RAM)
+
+Session-3: CI/CD with Jenkins (kubernetes)
+
+Tools: Jenkins, GitHub, Maven, Nexus, Tomcat, AWS, Docker, kubernetes
+
+Session-4: AWS DevOps
+
+Services: AWS Cloud Development Kit, AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline, AWS CodeStar, AWS Device Farm.
+
+Session-5: Azure DevOps
+
+Services: Azure Boards, Azure Pipelines, Azure Repos, Azure Test Plans, Azure Artifacts.
