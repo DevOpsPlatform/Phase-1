@@ -1,13 +1,14 @@
-#### du
-  
-  df -h *
+#### disk usage
 
-  du -f
 
-  sf -h
+    df -h *
 
-  du -sh *
+    du -f
 
-  free -m
+    sf -h
 
-   du -sh *
+    du -sh *
+
+    free -m
+
+     du -sh *
