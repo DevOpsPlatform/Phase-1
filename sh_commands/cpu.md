@@ -1,12 +1,13 @@
 
-#### top
+#### top - to know CPU and RAM utilization
 
-  root@ip-172-31-36-138:~# top
-  top - 02:40:22 up 6 min,  1 user,  load average: 0.08, 0.38, 0.24
-  Tasks:  92 total,   1 running,  55 sleeping,   0 stopped,   0 zombie
-  %Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-  KiB Mem :  1007540 total,   234920 free,   240748 used,   531872 buff/cache
-  KiB Swap:        0 total,        0 free,        0 used.   603772 avail Mem
+    root@ip-172-31-36-138:~# top
+    
+    top - 02:40:22 up 6 min,  1 user,  load average: 0.08, 0.38, 0.24
+    Tasks:  92 total,   1 running,  55 sleeping,   0 stopped,   0 zombie
+    %Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+    KiB Mem :  1007540 total,   234920 free,   240748 used,   531872 buff/cache
+    KiB Swap:        0 total,        0 free,        0 used.   603772 avail Mem
 
     PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
       1 root      20   0  225084   9036   6932 S  0.0  0.9   0:03.59 systemd
@@ -55,6 +56,7 @@
 #### mpstat
 
     root@ip-172-31-36-138:~# mpstat
+    
     Linux 4.15.0-1021-aws (ip-172-31-36-138)        12/18/18        _x86_64_        (1 CPU)
 
     02:40:48     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
