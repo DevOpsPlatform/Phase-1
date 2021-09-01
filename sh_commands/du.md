@@ -1,11 +1,13 @@
-df -h *
+#### du
+  
+  df -h *
 
-du -f
+  du -f
 
-sf -h
+  sf -h
 
-du -sh *
+  du -sh *
 
-free -m
+  free -m
 
- du -sh *
+   du -sh *
