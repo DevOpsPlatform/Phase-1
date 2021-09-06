@@ -2,7 +2,7 @@
 
     sudo apt update && sudo apt install default-jdk -y
 
-    Jenkins home path: /usr/lib/jvm/java-11-openjdk-amd64/
+    Java home path: /usr/lib/jvm/java-11-openjdk-amd64/
 
     sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat
 
