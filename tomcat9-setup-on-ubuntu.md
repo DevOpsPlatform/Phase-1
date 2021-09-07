@@ -6,7 +6,7 @@
 
     sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat
 
-    wget http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16.tar.gz -P /tmp
+    wget https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.52/bin/apache-tomcat-9.0.52.tar.gz -P /tmp
 
     sudo tar xf /tmp/apache-tomcat-9*.tar.gz -C /opt/tomcat
 
